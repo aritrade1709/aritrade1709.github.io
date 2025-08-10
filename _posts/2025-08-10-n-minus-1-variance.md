@@ -50,6 +50,7 @@ Dividing by \(n\) **underestimates** variance; using \(n-2\) or smaller overesti
 
 *If you want to run the code and play around with the sample size/population/repetitions etc the code and data used to generate the graph above can be found here.*
 
+[View the Jupyter notebook code here](https://github.com/aritrade1709/bessels_correction_simulation/bessels_correction_simulation.ipynb)
 
 ---
 
@@ -70,6 +71,9 @@ The pattern is the same:
 This tells us that **Bessel’s correction** works regardless of whether the underlying population is normal, uniform, or otherwise. It’s a property of sampling, not of the distribution shape.
 
 *If you want to run the code and play around with the sample size/population/repetitions etc the code and data used to generate the graph above can be found here.*
+
+[View the Jupyter notebook code here](https://github.com/aritrade1709/bessels_correction_simulation/bessels_correction_simulation.ipynb)
+
 
 ---
 
