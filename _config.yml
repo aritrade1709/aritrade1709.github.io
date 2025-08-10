@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Aritra De - Curiosity Lab
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I set out to buy ARTIficialintelligence.com… but accidentally ended up with ARITficialintelligence.com
+  —a happy typo blending “ARItra” (me) and “Artificial Intelligence.” 
+  So I turned this into a personal playground for data science experiments, unexpected projects, and creative AI tinkering.
 twitter_username: username
-github_username: username
+github_username: aritrade1709
 minimal_mistakes_skin: default
 search: true
 
@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Aritra De"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "A dump of thought provoking projects and experiments. Basically chasing questions that bother me, and sharing the journey here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
