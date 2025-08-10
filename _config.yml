@@ -23,7 +23,7 @@ twitter_username: username
 github_username: aritrade1709
 minimal_mistakes_skin: default
 search: true
-
+mathjax: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
