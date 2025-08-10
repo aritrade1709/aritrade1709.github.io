@@ -1,7 +1,7 @@
 ---
 title: "Why We Divide by ( n-1 ) When Calculating Sample Variance"
 layout: single
-author_profile: false
+author_profile: true
 mathjax: true
 toc: true
 toc_label: "Contents"
@@ -50,7 +50,7 @@ Dividing by \(n\) **underestimates** variance; using \(n-2\) or smaller overesti
 
 *If you want to run the code and play around with the sample size/population/repetitions etc the code and data used to generate the graph above can be found here.*
 
-[View the Jupyter notebook code here](https://github.com/aritrade1709/bessels_correction_simulation/bessels_correction_simulation.ipynb)
+[View the Jupyter notebook code here](https://github.com/aritrade1709/bessels_correction_simulation/blob/main/bessels_correction_simulation.ipynb)
 
 ---
 
@@ -72,8 +72,7 @@ This tells us that **Bessel’s correction** works regardless of whether the und
 
 *If you want to run the code and play around with the sample size/population/repetitions etc the code and data used to generate the graph above can be found here.*
 
-[View the Jupyter notebook code here](https://github.com/aritrade1709/bessels_correction_simulation/bessels_correction_simulation.ipynb)
-
+[View the Jupyter notebook code here](https://github.com/aritrade1709/bessels_correction_simulation/blob/main/bessels_correction_simulation.ipynb)
 
 ---
 
