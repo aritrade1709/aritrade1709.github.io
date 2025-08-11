@@ -56,7 +56,7 @@ Dividing by \(n\) **underestimates** variance; using \(n-2\) or smaller overesti
 
 ## Experiment 2: Uniform Population
 
-One might wonder — *what if the population isn’t normal?* Does the \(n-1\) correction still hold?
+One might wonder.... *what if the population isn’t normal?* Does the \(n-1\) correction still hold?
 
 To check, I repeated the experiment with a **population consisting of the integers 1 to 50,000**.
 
@@ -78,7 +78,7 @@ This tells us that **Bessel’s correction** works regardless of whether the und
 
 ## Why \( n - 1 \) Works: The Theory
 
-When calculating sample variance, we use the **sample mean** \($\bar{x}$) in place of the true population mean \(\mu\).
+When calculating sample variance, we use the **sample mean** \($\bar{x}$) in place of the true population mean \($\mu$).
 
 This introduces a **bias** because:
 - The deviations from \($\bar{x}$) are, on average, **smaller** than deviations from \($\mu$).
@@ -96,3 +96,8 @@ Once you know the mean, the second number’s deviation is completely determined
 In general:
 - When estimating the variance, **one degree of freedom** is used up in estimating the mean.
 - That’s why you divide by \(n - 1\) instead of \(n\).
+
+---
+
+[Connect with me on LinkedIn](https://www.linkedin.com/in/aritra-de/)
+[I also post on medium](https://medium.com/@aritrade.iitkgp/why-we-divide-by-n-1-when-calculating-sample-variance-7a4dcafdf5f4)
