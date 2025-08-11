@@ -1,0 +1,18 @@
+{% if site.author.links %}
+<ul class="social-icons">
+  {% for link in site.author.links %}
+    <li>
+      {% capture svg_path %}icons/{{ link.icon }}.svg{% endcapture %}
+      {% if link.icon and site.includes_dir and (svg_path | prepend: site.includes_dir | file_exists) %}
+        <a href="{{ link.url | relative_url }}" title="{{ link.label }}">
+          {% include {{ svg_path }} %}
+        </a>
+      {% else %}
+        <a href="{{ link.url }}" title="{{ link.label }}">
+          <i class="{{ link.icon }}"></i>
+        </a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
