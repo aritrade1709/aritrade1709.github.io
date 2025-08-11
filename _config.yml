@@ -62,27 +62,33 @@ author:
   avatar : "/assets/images/IMG_1628 3.jpg"
   bio    : "A dump of thought provoking projects and experiments. Basically chasing questions that bother me, and sharing the journey here."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://aritficialintelligence.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/aritra-de"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aritrade1709"
     - label: "Substack"
       icon: substack
       url: "https://aritrade.substack.com"
+    - label: "aritficialintelligence.com"
+      icon: "fas fa-fw fa-link"
+      url: "https://aritficialintelligence.com"
 
 footer:
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://aritficialintelligence.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/aritra-de"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aritrade1709"
     - label: "Substack"
       icon: substack
       url: "https://aritrade.substack.com"
+    - label: "aritficialintelligence.com"
+      icon: "fas fa-fw fa-link"
+      url: "https://aritficialintelligence.com"
 
 defaults:
   # _posts
