@@ -99,5 +99,6 @@ In general:
 
 ---
 
-[Connect with me on LinkedIn](https://www.linkedin.com/in/aritra-de/)
+[Connect with me on LinkedIn](https://www.linkedin.com/in/aritra-de/) 
+|
 [I also post on medium](https://medium.com/@aritrade.iitkgp/why-we-divide-by-n-1-when-calculating-sample-variance-7a4dcafdf5f4)
