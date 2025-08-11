@@ -2,13 +2,13 @@
 <ul class="social-icons">
   {% for link in site.author.links %}
     <li>
-      {% capture svg_path %}icons/{{ link.icon }}.svg{% endcapture %}
-      {% if link.icon and site.includes_dir and (svg_path | prepend: site.includes_dir | file_exists) %}
-        <a href="{{ link.url | relative_url }}" title="{{ link.label }}">
-          {% include {{ svg_path }} %}
+      {% assign svg_path = '_includes/icons/' | append: link.icon | append: '.svg' %}
+      {% if link.icon and (svg_path | file_exists) %}
+        <a href="{{ link.url }}" title="{{ link.label }}" target="_blank" rel="noopener">
+          {% include icons/{{ link.icon }}.svg %}
         </a>
       {% else %}
-        <a href="{{ link.url }}" title="{{ link.label }}">
+        <a href="{{ link.url }}" title="{{ link.label }}" target="_blank" rel="noopener">
           <i class="{{ link.icon }}"></i>
         </a>
       {% endif %}
