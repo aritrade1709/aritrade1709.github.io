@@ -9,3 +9,5 @@ toc_icon: "list"
 ---
 
 # Linear Algebra Revision
+
+![Linear Algebra Revision 1](/assets/images/Linear_Algebra/Linear%20Algebra%20Revision-1.webp)
