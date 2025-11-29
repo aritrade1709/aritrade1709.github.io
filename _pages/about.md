@@ -4,7 +4,7 @@ title: "About"
 ---
 
 # Download my CV
-[Download CV- Aritra De](/assets/images/Aritra_De_CV_290825.pdf)
+[Download CV- Aritra De](/assets/images/Aritra_De_Resume_2025.pdf)
 
 
-![Resume](/assets/images/Aritra_De_CV.webp)
+![Resume](assets/images/Aritra_De_Resume_2025.pdf)
